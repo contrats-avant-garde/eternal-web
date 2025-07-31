@@ -1,0 +1,13 @@
+---
+import Link from "@components/Link.astro"
+import { Image } from "astro:assets"
+import logo from "../../public/logo.svg"
+---
+
+<Link href="/" class="flex items-center gap-2">
+  <Image
+    src={logo}
+    alt="Logo"
+    class="h-16 w-auto invert hue-rotate-180 dark:invert-0 dark:hue-rotate-0"
+  />
+</Link>

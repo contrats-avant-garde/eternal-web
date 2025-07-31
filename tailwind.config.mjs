@@ -12,6 +12,9 @@ export default {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
         serif: ["Lora", ...defaultTheme.fontFamily.serif],
       },
+      colors: {
+        "darkmaroon": "rgb(30 5 2)"
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],
