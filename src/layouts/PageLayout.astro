@@ -3,6 +3,7 @@ import Footer from "@components/Footer.astro"
 import Head from "@components/Head.astro"
 import Header from "@components/Header.astro"
 import { SITE } from "@consts"
+import SpeedInsights from "@vercel/speed-insights/astro"
 
 type Props = {
   title: string
@@ -16,6 +17,7 @@ const { title, description } = Astro.props
 <html lang="en">
   <head>
     <Head title={`${title} | ${SITE.NAME}`} description={description} />
+    <SpeedInsights />
   </head>
   <body>
     <Header />
