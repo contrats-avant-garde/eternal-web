@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "/.well-known/matrix/server",
+      "destination": "https://matrix.eternalpassionproject.com/.well-known/matrix/server",
+      "permanent": true
+    },
+    {
+      "source": "/.well-known/matrix/client", 
+      "destination": "https://matrix.eternalpassionproject.com/.well-known/matrix/client",
+      "permanent": true
+    },
+    {
+      "source": "/.well-known/matrix/support",
+      "destination": "https://matrix.eternalpassionproject.com/.well-known/matrix/support", 
+      "permanent": true
+    }
+  ]
+}
