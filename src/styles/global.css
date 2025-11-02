@@ -19,7 +19,7 @@ body {
 body {
   @apply font-sans antialiased;
   @apply flex flex-col;
-  @apply bg-stone-100 dark:bg-darkmaroon;
+  @apply bg-white dark:bg-black;
   @apply text-black/50 dark:text-white/75;
 }
 
@@ -28,7 +28,7 @@ header {
   @apply fixed top-0 left-0 right-0 z-50 p-5;
   @apply flex items-center justify-between;
   @apply bg-transparent dark:bg-transparent;
-  @apply bg-white/10 dark:bg-darkmaroon/10 backdrop-blur-sm;
+  @apply bg-white/10 dark:bg-black/10 backdrop-blur-sm;
 }
 
 main {

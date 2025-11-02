@@ -13,7 +13,8 @@ export default {
         serif: ["Lora", ...defaultTheme.fontFamily.serif],
       },
       colors: {
-        "darkmaroon": "rgb(30 5 2)"
+        "darkmaroon": "rgb(30 5 2)",
+        "blueprinthighlight": "#E7EAD6",
       },
     },
   },

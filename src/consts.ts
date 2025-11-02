@@ -32,5 +32,9 @@ export const SOCIALS: Socials = [
   { 
     NAME: "github",
     HREF: "https://github.com/contrats-avant-garde"
-  }
+  },
+  { 
+    NAME: "matrix",
+    HREF: "https://matrix.to/#/#jantto:eternalpassionproject.com"
+  },
 ];
